@@ -1,0 +1,29 @@
+@import 'bower_components/bourbon/app/assets/stylesheets/bourbon';
+@import 'bower_components/neat/app/assets/stylesheets/neat';
+
+body {
+  @include outer-container(80%);
+}
+
+aside {
+  @include span-columns(4);
+  background: dodgerblue;
+}
+main {
+  @include span-columns(8);
+  background: #ccc;
+}
+input {
+  @include span-columns(12);
+  font-size: 20px;
+  border: 3px dashed pink;
+  background: #fff;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  outline: none;
+}
+#postBtn {
+  width: 80px;
+}

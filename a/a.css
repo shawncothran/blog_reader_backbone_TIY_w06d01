@@ -1,0 +1,16 @@
+#postBody {
+  resize: none;
+}
+#postTitle, #postBody, #postBtn {
+  font-size: 20px;
+  border: 3px dashed pink;
+  background: none;
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  outline: none;
+}
+#postBtn {
+  width: 80px;
+}
